@@ -1,9 +1,9 @@
 function onHover()
 {
-    $("#menuImg").attr('src', 'images/flower.png');
+    $("#index_about").attr('src', 'img/about.gif');
 }
 
 function offHover()
 {
-    $("#menuImg").attr('src', 'images/about.png');
+    $("#indexgal").attr('src', 'images/about.png');
 }
