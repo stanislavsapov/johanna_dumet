@@ -153,10 +153,17 @@ INDEX GALERY MAIN PAGE
 	border-radius: 100%;
 	width: 100%;
 }
-#left{
+#index_about {
 	margin-left: 33%;
 }
-#right{
+#index_fashion {
+	margin-left: 33%;
+}
+#index_artwork {
+	margin-left: 0.5%;
+	margin-bottom: 0.5%;
+}
+#index_contact {
 	margin-left: 0.5%;
 	margin-bottom: 0.5%;
 }
