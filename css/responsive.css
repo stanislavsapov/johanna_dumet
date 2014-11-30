@@ -1,0 +1,44 @@
+@media screen and (min-width: 320px) {
+  body {
+    
+  }
+  #left{
+  	margin-left: 11%;
+  }
+ #right{
+      margin-right: 5%;
+  }
+}
+@media screen and (min-width: 360px) {
+	body{
+			
+	}
+	#left{
+  		margin-left: 14%;
+  	}
+  	#right{
+  		margin-right: 5%;
+	}
+@media screen and (min-width: 660px) {
+  body {
+    
+    }  
+    #left{
+		margin-left: 32%;
+	}
+	#right{
+		margin-right: 25%;
+	}
+  }
+@media screen and (min-width: 1280px) {
+  body {
+    
+    }  
+    #left{
+    margin-left: 33.5%;
+  }
+  #right{
+    margin-right: 25%;
+  }
+
+}
