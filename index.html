@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
 	</head>
 	<body>
 		<header>
@@ -26,10 +27,22 @@
 		</header>
 			<div class="indexgal">
 				<ul>
-				  <li id="index_about"><a href="about.html"><img src="img/about_index.jpg" onmouseover="onHover()" onmouseout="this.src='img/about_index.jpg'" ></a></li>
-				  <li id="index_artwork"><a href="art.html"><img src="img/artwork.jpg" onmouseover="onHover()" onmouseout="this.src='img/artwork.jpg'"></a></li>
-				  <li id="index_fashion"><a href="fashion.html"><img src="img/fashion.jpg" onmouseover="this.src='img/fashion.gif'" onmouseout="this.src='img/fashion.jpg'"></a></li>
-				  <li id="index_contact"><a href="contact.html"><img src="img/contact_index.jpg"onmouseover="this.src='img/contact.gif'" onmouseout="this.src='img/contact_index.jpg'"></a></li>
+				  <li id="index_about" ><a href="about.html">
+				  	<img id="index_about_img" src="img/about_index.jpg" 
+				  	onmouseover = "Roll('index_about_img','img/about.gif')" 
+				  	onmouseout="Roll('index_about_img','img/about_index.jpg')"></a></li>
+				  <li id="index_artwork"><a href="art.html">
+				  	<img id="index_artwork_img"src="img/artwork.jpg" 
+				  	onmouseover = "Roll('index_artwork_img','img/art.gif')" 
+				  	onmouseout="Roll('index_artwork_img','img/artwork.jpg')"></a></li>
+				  <li id="index_fashion"><a href="fashion.html">
+				  	<img id="index_fashion_img" src="img/fashion.jpg" 
+				  	onmouseover = "Roll('index_fashion_img','img/fashion.gif')" 
+				  	onmouseout="Roll('index_fashion_img','img/fashion.jpg')"></a></li>
+				  <li id="index_contact"><a href="contact.html">
+				  	<img id="index_contact_img" src="img/contact_index.jpg" 
+				  	onmouseover = "Roll('index_contact_img','img/contact.gif')" 
+				  	onmouseout="Roll('index_contact_img','img/contact_index.jpg')"></a></li>
 				</ul> 
 			</div>
 		<footer>
@@ -38,6 +51,7 @@
 			</div>
 		</footer>
 		</div>
+	<script src="script.js"></script>
 	</body>
 </html>
 	

@@ -1,44 +1,25 @@
-@media screen and (min-width: 320px) {
-  body {
-    
+@media screen and (max-width: 360px) {
+  .indexgal ul li{
+    clear: both;
+    position: relative;
+    display: block;
+    background: yellow;
   }
-  #left{
-  	margin-left: 11%;
+  #index_about {
+    margin-left: 2% auto;
   }
- #right{
-      margin-right: 5%;
+  #index_fashion {
+    margin-left: 2% auto;
   }
+  #index_artwork {
+    margin:2% auto;
+    margin-left: 33%;
+  }
+  #index_contact {
+    margin: 2% auto;
+    margin-left: 33%;
+  }
+  
 }
-@media screen and (min-width: 360px) {
-	body{
-			
-	}
-	#left{
-  		margin-left: 14%;
-  	}
-  	#right{
-  		margin-right: 5%;
-	}
-@media screen and (min-width: 660px) {
-  body {
     
-    }  
-    #left{
-		margin-left: 32%;
-	}
-	#right{
-		margin-right: 25%;
-	}
-  }
-@media screen and (min-width: 1280px) {
-  body {
-    
-    }  
-    #left{
-    margin-left: 33.5%;
-  }
-  #right{
-    margin-right: 25%;
-  }
-
-}
+  
