@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
   </head>
   <body>
     <header>
@@ -13,15 +16,13 @@
       <a href="index.html" > <img src="img/title.jpg"></a>
       </div>
       <div class="social">
-        <a href="http://www.pinterest.com/johannadumet/">
-          <img src="img/pinterest.png">
-        </a>
+        <ul>
+          <li><a href="https://www.pinterest.com/johannadumet/"><img src="social_icons/pinterest.png"></a></li>
+          <li><a href="https://www.facebook.com/noirplusblanc"><img src="social_icons/facebook.png"></a></li>
+          <li><a href="http://instagram.com/johanna_dumet/"><img src="social_icons/instagram.png"></a></li>
+        </ul>
       </div>
-      <div class="social">
-        <a href="https://www.facebook.com/johanna.dumet">
-          <img src="img/facebook.png">
-        </a>
-      </div>
+     
       <nav id="primary_nav_wrap">
         <ul>
           <li ><a href="about.html">ABOUT</a></li>
@@ -43,11 +44,59 @@
          </ul>
       </nav>
     </header>
+
+    <div class="gallery">
+      <ul>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/1.jpg"><img src="img/paint/tn/1.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/2.jpg"><img src="img/paint/tn/2.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/3.jpg"><img src="img/paint/tn/3.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/4.jpg"><img src="img/paint/tn/4.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/5.jpg"><img src="img/paint/tn/5.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/6.jpg"><img src="img/paint/tn/6.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/7.jpg"><img src="img/paint/tn/7.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/8.jpg"><img src="img/paint/tn/8.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/9.jpg"><img src="img/paint/tn/9.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/10.jpg"><img src="img/paint/tn/10.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/11.jpg"><img src="img/paint/tn/11.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/12.jpg"><img src="img/paint/tn/12.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/13.jpg"><img src="img/paint/tn/13.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/14.jpg"><img src="img/paint/tn/14.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/15.jpg"><img src="img/paint/tn/15.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/16.jpg"><img src="img/paint/tn/16.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/17.jpg"><img src="img/paint/tn/17.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/18.jpg"><img src="img/paint/tn/18.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/19.jpg"><img src="img/paint/tn/19.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/20.jpg"><img src="img/paint/tn/20.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/20.jpg"><img src="img/paint/tn/21.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/22.jpg"><img src="img/paint/tn/22.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/23.jpg"><img src="img/paint/tn/23.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/24.jpg"><img src="img/paint/tn/24.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/25.jpg"><img src="img/paint/tn/25.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/26.jpg"><img src="img/paint/tn/26.jpg"></a></li>
+        <li><a class="fancybox" rel="group" href="img/paint/lg/27.jpg"><img src="img/paint/tn/27.jpg"></a></li>
+        </ul>
+    </div>
     <footer>
       <div id="footer">
         &copy; 2014 Johanna Dumet
       </div>
     </footer>
-    </div>
+    
+    <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
   </body>
 </html>

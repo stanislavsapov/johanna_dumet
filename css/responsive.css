@@ -1,25 +1,27 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 440px) {
   .indexgal ul li{
     clear: both;
-    position: relative;
-    display: block;
-    background: yellow;
+    display: block;    
   }
   #index_about {
-    margin-left: 2% auto;
+   margin-left: 25%;
+
   }
   #index_fashion {
-    margin-left: 2% auto;
+   margin-left: 25%;
   }
   #index_artwork {
     margin:2% auto;
-    margin-left: 33%;
+    margin-left: 25%;
   }
   #index_contact {
     margin: 2% auto;
-    margin-left: 33%;
+    margin-left: 25%;
   }
-  
+.social{
+  clear: both;
+  margin-top: 20%;
+}
 }
     
   

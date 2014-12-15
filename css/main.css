@@ -1,7 +1,8 @@
 /********************************
 GENERAL
 ********************************/
-
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
 
 a:link, a:visited {
     color: #5e5b5b;                
@@ -29,17 +30,18 @@ header{
 	/*background: red;*/
 	width: 100%;
 	margin: 0 auto;
+	margin-top: 1%;
+
 	padding: 0.1%;
 }
 .logo{ /*TITLE PICTURE*/
 	width: 100%;
 	/*background: yellow;*/
-	margin-bottom: 1%;
 }
 .logo img{
 	display: block;
 	width: 33%;
-	margin: 0 auto;
+	margin:0 auto;
 }
 h1{
 color: #5e5b5b;
@@ -63,19 +65,28 @@ h3{
 
 /*******************
 SOCIAL BUTTONS
+
 *********************/
 .social{
+	clear: both;
+	}
+.social ul{
 	float: right;
+	list-style: none;
 	display: inline-block;
-	/*background: purple;*/
-	width: 3%;
-		
+	margin-top: -2em;
 }
-.social img {
-    width: 60%;
-    height: 60%;
-    margin: 0;
+.social ul li {
+	float: right;
+	margin-right: -10%;
+	
+
 }
+.social ul li img{
+	width: 45%;
+	
+}
+
 
 /********************
 NAVBAR
@@ -193,13 +204,14 @@ INDEX GALERY MAIN PAGE
 *******************************/
 .indexgal {
   clear: both;
-  background: yellow;
+ 
 }
 
 .indexgal ul{
-	background: red;
-	position: absolute;
-	margin: -1% auto;
+	/*background: red;*/
+	position: relative;
+	margin: 2% auto;
+	overflow: hidden;
  }
 
 .indexgal ul li{
@@ -209,7 +221,6 @@ INDEX GALERY MAIN PAGE
   			min-width: 90px;
   			margin: 0 auto;
   			border: solid white;
-
   			}
 .indexgal ul li img{
 	border-radius: 100%;
@@ -229,26 +240,6 @@ INDEX GALERY MAIN PAGE
 	margin-left: 0.5%;
 	margin-bottom: 0.5%;
 }
-
-/***
-ul  {
-	float: left;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 1%;
-    background: purple;
-    border: dashed green;
-} 
-li {
-	float: left;
-    margin: 0;
-    background: red;
-    height: 100%;
-    padding: 0;
-    border: solid red;
-}
-***/
-
 
 
 /*************************
@@ -313,6 +304,43 @@ PAGE ART WORK
 }
 
 
+/******************************
+GALLERY 
+*******************************/
+.gallery {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+}
+.gallery ul{
+	list-style-type: none;
+	margin-left: 4%;
+
+
+	
+}
+.gallery ul li{
+	float: left;
+	margin: 2%;
+	padding: 0;
+	}
+	.gallery ul li img {
+		border: solid white;
+	}
+	.gallery ul li img:hover {
+		border: solid yellow;
+	}
+
+/*************************
+PAGE OTHER AN TEXTILE CLASS = comsoon
+**************************/
+.comsoon{
+	clear: both;
+	margin: 10% auto;
+	font-family: CaviarDreamsBold, sans-serif;	
+}
 
 /*************************
 PAGE CONTACT
