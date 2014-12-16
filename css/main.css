@@ -5,7 +5,7 @@ article, aside, figure, footer, header, hgroup,
 menu, nav, section { display: block; }
 
 a:link, a:visited {
-    color: #5e5b5b;                
+    color: #5e5b5b;
    /* background-color: white;*/
     text-decoration: none;
 }
@@ -19,29 +19,31 @@ HEADING
 @font-face {
     font-family: CaviarDreams;
     src: url(../CaviarDreams.ttf);
-    
+
 }
 @font-face {
     font-family: CaviarDreamsBold;
     src: url(../CaviarDreams_Bold.ttf);
-    
+
 }
 header{
-	/*background: red;*/
-	width: 100%;
-	margin: 0 auto;
-	margin-top: 1%;
+    /*background: red;*/
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1%;
 
-	padding: 0.1%;
+    padding: 0.1%;
 }
 .logo{ /*TITLE PICTURE*/
-	width: 100%;
-	/*background: yellow;*/
+    width: 100%;
+    /*background: yellow;*/
 }
 .logo img{
-	display: block;
-	width: 33%;
-	margin:0 auto;
+    display: block;
+    width: 33%;
+    margin:0 auto;
+    min-height: 75px;
+    min-width: 360px;
 }
 h1{
 color: #5e5b5b;
@@ -53,14 +55,14 @@ margin: 2% auto;
 }
 
 h2{
-	color: #5e5b5b;
-	text-align: center;
-	font-size: 1.2em;	
-	font-family : CaviarDreams, sans-serif; 
+    color: #5e5b5b;
+    text-align: center;
+    font-size: 1.2em;
+    font-family : CaviarDreams, sans-serif;
 }
 
 h3{
-	margin: 0 0 1em 0;
+    margin: 0 0 1em 0;
 }
 
 /*******************
@@ -68,23 +70,23 @@ SOCIAL BUTTONS
 
 *********************/
 .social{
-	clear: both;
-	}
+    clear: both;
+    }
 .social ul{
-	float: right;
-	list-style: none;
-	display: inline-block;
-	margin-top: -2em;
+    float: right;
+    list-style: none;
+    display: inline-block;
+    margin-top: -2em;
 }
 .social ul li {
-	float: right;
-	margin-right: -10%;
-	
+    float: right;
+    margin-right: -10%;
+
 
 }
 .social ul li img{
-	width: 45%;
-	
+    width: 45%;
+
 }
 
 
@@ -93,109 +95,106 @@ NAVBAR
 *********************/
 #primary_nav_wrap
 {
-	margin-top:2%;
+    display: block;
+    width: 45%;
+    text-align:center;
+    margin:2% auto;
+    margin-bottom: 1%;
+
 }
 
 #primary_nav_wrap ul
 {
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
+    display: block;
+    list-style:none;
+    position: absolute;
+    float:left;
+    margin:0 auto;
+    padding:0;
+
+
 }
 
 #primary_nav_wrap ul a
 {
-	display:block;
-	color:#5e5b5b;
-	text-decoration:none;
-	padding:0 2em;
-	font-family: CaviarDreamsBold, Helvetica,Arial,sans-serif
+    display:block;
+    color:#5e5b5b;
+    text-decoration:none;
+    padding:0 2em;
+    font-family: CaviarDreamsBold, Helvetica,Arial,sans-serif
 }
 
 #primary_nav_wrap ul li
 {
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0;
+    position:relative;
+    float:left;
+    margin:0 auto;
+    padding:0;
 }
 
 #primary_nav_wrap ul li.current-menu-item
 {
-	background:yellow;
+    background:yellow;
 }
 
 #primary_nav_wrap ul li:hover
 {
-	background: yellow;
+    background: yellow;
 }
 
 #primary_nav_wrap ul ul
 {
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#fff;
-	padding:0
+    display:none;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    left:0;
+    margin: 0 auto;
+    background:#fff;
+    padding:0;
 }
 
 #primary_nav_wrap ul ul li
 {
-	
-	float:none;
-	
+
+    float:none;
+
 }
 
 #primary_nav_wrap ul ul a
 {
-	line-height:140%;
-	
-	padding:4% 0;
+    line-height:140%;
+
+    padding:4% 0;
 }
 
 #primary_nav_wrap ul ul ul
 {
-	top:0;
-	left:100%
+    top:0;
+    left:100%
 }
 
 #primary_nav_wrap ul li:hover > ul
 {
-	display:block
+    display:block
 }
-/*nav ul ul {
-	display: none;
-}
-
-.menu li:hover > ul {
-	display: block;
-	}
-/***a#activna:link {
-	background: yellow;
-	color: black;
-}***/
-
-
 /***************************
 FOOTING
 *********************/
 
 #footer {
-	width:100%;
-	height:1.25em;
-	position:fixed;
-	bottom:0;
-	left:0;
-	/*background: yellow;*/
-	color: #5e5b5b;
-	text-align: center;
-	clear: both;
-	font-size: 1em;
-	font-family : Calibri, helvetica, sans-serif; 
-	}
+    width:100%;
+    height:1.25em;
+    position:fixed;
+    bottom:0;
+    left:0;
+    /*background: yellow;*/
+    color: #5e5b5b;
+    text-align: center;
+    clear: both;
+    font-size: 1em;
+    font-family : Calibri, helvetica, sans-serif;
+    }
 
 
 
@@ -204,41 +203,41 @@ INDEX GALERY MAIN PAGE
 *******************************/
 .indexgal {
   clear: both;
- 
+
 }
 
 .indexgal ul{
-	/*background: red;*/
-	position: relative;
-	margin: 2% auto;
-	overflow: hidden;
+    /*background: red;*/
+    position: relative;
+    margin: 2% auto;
+    overflow: hidden;
  }
 
 .indexgal ul li{
-			list-style: none;
-			float: left;
-  			width: 15%;
-  			min-width: 90px;
-  			margin: 0 auto;
-  			border: solid white;
-  			}
+            list-style: none;
+            float: left;
+              width: 15%;
+              min-width: 90px;
+              margin: 0 auto;
+              border: solid white;
+              }
 .indexgal ul li img{
-	border-radius: 100%;
-	width: 100%;
+    border-radius: 100%;
+    width: 100%;
 }
 #index_about {
-	margin-left: 33%;
+    margin-left: 33%;
 }
 #index_fashion {
-	margin-left: 33%;
+    margin-left: 33%;
 }
 #index_artwork {
-	margin-left: 0.5%;
-	margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
 }
 #index_contact {
-	margin-left: 0.5%;
-	margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 
@@ -246,12 +245,13 @@ INDEX GALERY MAIN PAGE
 BODY CENTER OF PAGE
 **************************/
 .body {
-	margin: 5% auto;
-	padding: 5%;
-	color:#5e5b5b;
-	/*background: #DEB887;*/
-	font-size: 1.25em;	
-	font-family : CaviarDreamsBold, sans-serif;
+    margin: 5% auto;
+    padding: 5%;
+    color:#5e5b5b;
+    /*background: #DEB887;*/
+    font-size: 1.25em;
+    font-family : CaviarDreamsBold, sans-serif;
+    overflow: hidden;
 }
 
 
@@ -261,15 +261,15 @@ BODY CENTER OF PAGE
 PAGE ABOUT
 **************************/
 .profile {
-	float: right;
-	margin: 1%; 
-	margin-right: 20%;
-	border-radius: 100%;
+    float: right;
+    margin: 1%;
+    margin-right: 20%;
+    border-radius: 100%;
 }
 article{
-	font-family: Tahoma, sans-serif;
-	font-size: 0.8em;
-	margin:0 20%;          /* CENTERED TEXT ABOUT J.D*/
+    font-family: Tahoma, sans-serif;
+    font-size: 0.8em;
+    margin:0 20%;          /* CENTERED TEXT ABOUT J.D*/
 }
 
 
@@ -278,8 +278,8 @@ article{
 PAGE ART WORK
 **************************/
 .body h2{                  /*THIS APPLY FOR TITLE H2 IN PAGES: ART WORK AND FASHION WORK; */
-	clear: both;
-	margin-top: -1.5em;
+    clear: both;
+    margin-top: -1.5em;
 
 }
 #art ul{
@@ -290,67 +290,68 @@ PAGE ART WORK
   margin-top: -1em;
   }
 #art li{
-			float: left;
-  			width: 15%;
-  			margin-left: 14%;
-  			margin-right: 2%;
-  			border: solid white;
-  			}
+            float: left;
+              width: 15%;
+              margin-left: 14%;
+              margin-right: 2%;
+              border: solid white;
+              }
 #art li img{
-	border-radius: 100%;
-	width: 100%;
+    border-radius: 100%;
+    width: 100%;
     height: 100%;
     min-width: 100px
 }
 
 
 /******************************
-GALLERY 
+GALLERY
 *******************************/
 .gallery {
-	clear: both;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+    clear: both;
+    margin-top: 2%;
+    padding: 0;
+    overflow: hidden;
 
 }
 .gallery ul{
-	list-style-type: none;
-	margin-left: 4%;
+    list-style-type: none;
+    margin-left: 4%;
 
 
-	
+
 }
 .gallery ul li{
-	float: left;
-	margin: 2%;
-	padding: 0;
-	}
-	.gallery ul li img {
-		border: solid white;
-	}
-	.gallery ul li img:hover {
-		border: solid yellow;
-	}
+    float: left;
+    margin: 0.3%;
+    padding: 0;
+    }
+    .gallery ul li img {
+        border: solid white;
+    }
+    .gallery ul li img:hover {
+        border: solid yellow;
+    }
 
 /*************************
 PAGE OTHER AN TEXTILE CLASS = comsoon
 **************************/
 .comsoon{
-	clear: both;
-	margin: 10% auto;
-	font-family: CaviarDreamsBold, sans-serif;	
+    clear: both;
+    margin: 10% auto;
+    font-family: CaviarDreamsBold, sans-serif;
 }
 
 /*************************
 PAGE CONTACT
 **************************/
+
 .contact-info {
   list-style: none;
   padding: 1%;
   margin: 2.5% 2% 5% 10%;
   font-size: 0.8em;
-  background: yellow;
+
   float: left;
 }
 
@@ -370,22 +371,17 @@ PAGE CONTACT
 .contact-info li.mail a {
   background-image: url('../img/email.png');
 }
-
-
-
 #contact_alice{
-	clear: both;
-	float: left;
-	width: 10%;
-	margin: 2% 2% 2% 25%;
+    clear: left;
+    float: left;
+    width: 15%;
+    margin: -4% 2% 2% 20%;
 }
 #contact_alice  img{
-	height: 200px;
-	margin-left: 50%;
+    height: 300px;
+    margin-left: 50%;
 }
 
 
-#arrow{
-	float: left;
-	margin-left: 2em;
-}
+
+
